@@ -1,5 +1,6 @@
 import { cn } from '@/lib/utils'
 import Image from 'next/image'
+import { Container } from '@/components/Container'
 
 type GridProps = {
   /** Should the grid image be flipped vertically? */
@@ -13,6 +14,10 @@ function Header() {
       <div className='flex items-center justify-center relative -top-11'>
         <TopButton />
       </div>
+      <Container className='flex justify-between'>
+        <h2>Atlas Premier Knowledge Blogs: </h2>
+        <h2>Atlas Premier Knowledge Blogs: </h2>
+      </Container>
     </div>
   )
 }
