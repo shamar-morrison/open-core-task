@@ -19,20 +19,25 @@ function Header() {
           <p className='text-[60px] font-bold w-[90%]'>
             Atlas Premier Knowledge Blogs:{' '}
           </p>
-          <span className='w-[60%] text-primary-500'>
+          <p className='w-[60%] text-primary-500'>
             &quot;Immerse yourself in the latest knowledge and research from our
             team of software engineers and design professionals.
-          </span>
+          </p>
         </div>
         <div className='flex justify-between'>
           <div className='overflow-hidden rounded-3xl rounded-r-none basis-[80%]'>
             <Image alt='' src={'/macbook.png'} width={600} height={600} />
           </div>
           <div className='flex gap-3 flex-col justify-center ml-[100px]'>
-            <span className='text-left'>FREELANCING 101 | Joseph Patrick</span>
-            <span className='w-[60%] text-[30px]'>
+            <p className='text-left text-primary-500 text-sm'>
+              FREELANCING 101 • Joseph Patrick
+            </p>
+            <p className='w-[60%] text-[30px]'>
               07 Ways to get Consistent Clients from Social Media
-            </span>
+            </p>
+            <p className='mt-14 text-primary-500 text-sm'>
+              15 Min Read • 23 - 05 -2023
+            </p>
           </div>
         </div>
       </Container>
