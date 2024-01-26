@@ -11,6 +11,12 @@ const config: Config = {
       scale: {
         '-1': '-1',
       },
+      colors: {
+        primary: {
+          700: '#344054',
+          500: '#667085',
+        },
+      },
     },
   },
   plugins: [],
