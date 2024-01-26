@@ -6,7 +6,7 @@ const Container = React.forwardRef<
   React.ComponentPropsWithoutRef<'div'>
 >(({ className, ...props }, ref) => (
   <div
-    className={cn('p-28 text-primary-700', className)}
+    className={cn('px-28 text-primary-700', className)}
     ref={ref}
     {...props}
   />
