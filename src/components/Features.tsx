@@ -30,7 +30,7 @@ function Lightning() {
 
 function CTABanner() {
   return (
-    <div className='rounded-lg bg-custom-gradient'>
+    <div className='rounded-2xl bg-custom-gradient'>
       <span className='opacity-15'>
         <Grid isFlipped />
       </span>

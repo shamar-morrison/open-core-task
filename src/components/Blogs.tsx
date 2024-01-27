@@ -6,6 +6,7 @@ import {
 } from '@/components/Block'
 import { Container } from '@/components/Container'
 import { Features } from '@/components/Features'
+import { Grid } from '@/components/Grid'
 import Image from 'next/image'
 import React from 'react'
 
@@ -25,8 +26,14 @@ function Blogs() {
           </nav>
         </div>
         <div className='flex justify-between gap-5'>
-          <div className='w-full'>
+          <div className='flex flex-col w-full'>
+            <div className='lg:hidden'>
+              <Grid isFlipped />
+            </div>
             <Image alt='' src={'/socials.png'} width={450} height={100} />
+            <div className='lg:hidden'>
+              <Grid />
+            </div>
           </div>
           <Block className='basis-[90%]'>
             <BlockTitle>FREELANCING 101 • William George</BlockTitle>
