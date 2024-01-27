@@ -12,7 +12,7 @@ import React from 'react'
 function Blogs() {
   return (
     <section>
-      <Container className='mt-20 flex flex-col gap-20'>
+      <Container className='mt-20 flex flex-col gap-20 pb-20'>
         <div className='flex justify-between items-center'>
           <p className='text-[50px] font-bold'>Blogs</p>
           <nav className='flex gap-6'>

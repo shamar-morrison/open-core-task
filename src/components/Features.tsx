@@ -30,17 +30,27 @@ function Lightning() {
 
 function CTABanner() {
   return (
-    <div className='rounded-md bg-custom-gradient'>
-      <Grid isFlipped />
-      <div className='flex justify-between items-center'>
-        <div className='flex flex-col gap4'>
-          <p>Transforming your Ideas into reality</p>
-          <p>
+    <div className='rounded-lg bg-custom-gradient'>
+      <span className='opacity-15'>
+        <Grid isFlipped />
+      </span>
+      <div className='flex justify-between items-center p-14'>
+        <div className='flex flex-col gap-4'>
+          <p className='text-[60px] text-white w-[80%]'>
+            Transforming your <strong>Ideas into reality</strong>
+          </p>
+          <p className='text-white'>
             Let&rsquo;s build something extraordinary together to captivate your
             audience.
           </p>
         </div>
+        <div className='flex items-center justify-center text-white text-xl border-2 border-white rounded-full h-48 w-48 aspect-square'>
+          <div className='text-center'>Let&apos;s Work Together!</div>
+        </div>
       </div>
+      <span className='opacity-15'>
+        <Grid />
+      </span>
     </div>
   )
 }
