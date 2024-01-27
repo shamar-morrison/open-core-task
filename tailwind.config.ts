@@ -18,6 +18,10 @@ const config: Config = {
           400: '#98A2B3',
         },
       },
+      backgroundImage: (theme) => ({
+        'custom-gradient':
+          'linear-gradient(to right, #2F5478 100%, #22405C 100%)',
+      }),
     },
   },
   plugins: [],

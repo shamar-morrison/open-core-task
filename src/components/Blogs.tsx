@@ -5,6 +5,7 @@ import {
   BlockTitle,
 } from '@/components/Block'
 import { Container } from '@/components/Container'
+import { Features } from '@/components/Features'
 import Image from 'next/image'
 import React from 'react'
 
@@ -38,87 +39,6 @@ function Blogs() {
         <Features />
       </Container>
     </section>
-  )
-}
-
-function Rocket() {
-  return (
-    <div className='flex justify-center mb-6'>
-      <Image alt='feature image' src={'/rocket.png'} width={150} height={100} />
-    </div>
-  )
-}
-
-function Lightning() {
-  return (
-    <div className='flex justify-center mb-6'>
-      <Image
-        alt='feature image'
-        src={'/lightning.png'}
-        width={130}
-        height={100}
-      />
-    </div>
-  )
-}
-
-function Features() {
-  return (
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20  p-4 mt-20'>
-      <Block>
-        <Rocket />
-        <BlockTitle>FREELANCING 101 • William George</BlockTitle>
-        <BlockContent>
-          07 Ways to get Consistent Clients from Social Media
-        </BlockContent>
-        <BlockFooter>15 Min Read • 23 - 05 -2023</BlockFooter>
-      </Block>
-
-      <Block>
-        <Lightning />
-        <BlockTitle>FREELANCING 101 • William George</BlockTitle>
-        <BlockContent>
-          07 Ways to get Consistent Clients from Social Media
-        </BlockContent>
-        <BlockFooter>15 Min Read • 23 - 05 -2023</BlockFooter>
-      </Block>
-
-      <Block>
-        <Rocket />
-        <BlockTitle>FREELANCING 101 • William George</BlockTitle>
-        <BlockContent>
-          07 Ways to get Consistent Clients from Social Media
-        </BlockContent>
-        <BlockFooter>15 Min Read • 23 - 05 -2023</BlockFooter>
-      </Block>
-
-      <Block>
-        <Lightning />
-        <BlockTitle>FREELANCING 101 • William George</BlockTitle>
-        <BlockContent>
-          07 Ways to get Consistent Clients from Social Media
-        </BlockContent>
-        <BlockFooter>15 Min Read • 23 - 05 -2023</BlockFooter>
-      </Block>
-
-      <Block>
-        <Lightning />
-        <BlockTitle>FREELANCING 101 • William George</BlockTitle>
-        <BlockContent>
-          07 Ways to get Consistent Clients from Social Media
-        </BlockContent>
-        <BlockFooter>15 Min Read • 23 - 05 -2023</BlockFooter>
-      </Block>
-
-      <Block>
-        <Rocket />
-        <BlockTitle>FREELANCING 101 • William George</BlockTitle>
-        <BlockContent>
-          07 Ways to get Consistent Clients from Social Media
-        </BlockContent>
-        <BlockFooter>15 Min Read • 23 - 05 -2023</BlockFooter>
-      </Block>
-    </div>
   )
 }
 

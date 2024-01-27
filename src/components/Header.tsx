@@ -7,11 +7,7 @@ import {
   BlockFooter,
   BlockTitle,
 } from '@/components/Block'
-
-type GridProps = {
-  /** Should the grid image be flipped vertically? */
-  isFlipped?: boolean
-}
+import { Grid } from '@/components/Grid'
 
 function Header() {
   return (
@@ -58,26 +54,6 @@ function TopButton() {
       <button className='p-2 px-4'>
         <Image alt='' src={'/menu.png'} height={20} width={20} />
       </button>
-    </div>
-  )
-}
-
-function Grid({ isFlipped = false }: GridProps) {
-  return (
-    <div className='w-full overflow-hidden'>
-      <div className='relative w-full h-[100px]'>
-        <div
-          className={cn(
-            isFlipped && 'scale-y-[-1] absolute bottom-0 w-full h-full',
-          )}>
-          <Image
-            src='/grid.png'
-            alt='Descriptive text for the image'
-            layout='fill'
-            objectFit='cover'
-          />
-        </div>
-      </div>
     </div>
   )
 }
