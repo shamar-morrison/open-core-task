@@ -15,7 +15,7 @@ type GridProps = {
 
 function Header() {
   return (
-    <div>
+    <section>
       <Grid isFlipped />
       <div className='flex items-center justify-center relative -top-11'>
         <TopButton />
@@ -44,7 +44,7 @@ function Header() {
         </div>
       </Container>
       <Grid />
-    </div>
+    </section>
   )
 }
 
