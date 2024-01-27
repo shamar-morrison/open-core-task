@@ -1,6 +1,12 @@
 import { cn } from '@/lib/utils'
 import Image from 'next/image'
 import { Container } from '@/components/Container'
+import {
+  Block,
+  BlockContent,
+  BlockFooter,
+  BlockTitle,
+} from '@/components/Block'
 
 type GridProps = {
   /** Should the grid image be flipped vertically? */
@@ -28,17 +34,13 @@ function Header() {
           <div className='overflow-hidden rounded-3xl rounded-r-none basis-[80%]'>
             <Image alt='' src={'/macbook.png'} width={600} height={600} />
           </div>
-          <div className='flex gap-3 flex-col justify-center ml-[100px]'>
-            <p className='text-left text-primary-500 text-sm'>
-              FREELANCING 101 • Joseph Patrick
-            </p>
-            <p className='w-[60%] text-[30px]'>
+          <Block className='ml-[100px]'>
+            <BlockTitle>FREELANCING 101 • Joseph Patrick</BlockTitle>
+            <BlockContent className='w-[60%]'>
               07 Ways to get Consistent Clients from Social Media
-            </p>
-            <p className='mt-14 text-primary-500 text-sm'>
-              15 Min Read • 23 - 05 -2023
-            </p>
-          </div>
+            </BlockContent>
+            <BlockFooter>15 Min Read • 23 - 05 -2023</BlockFooter>
+          </Block>
         </div>
       </Container>
       <Grid />
