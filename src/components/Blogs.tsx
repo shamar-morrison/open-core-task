@@ -44,7 +44,7 @@ function Blogs() {
 function Features() {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 mt-20'>
-      <Block className='basis-[90%]'>
+      <Block>
         <BlockTitle>FREELANCING 101 • William George</BlockTitle>
         <BlockContent>
           07 Ways to get Consistent Clients from Social Media
@@ -52,7 +52,7 @@ function Features() {
         <BlockFooter>15 Min Read • 23 - 05 -2023</BlockFooter>
       </Block>
 
-      <Block className='basis-[90%]'>
+      <Block>
         <BlockTitle>FREELANCING 101 • William George</BlockTitle>
         <BlockContent>
           07 Ways to get Consistent Clients from Social Media
@@ -60,7 +60,7 @@ function Features() {
         <BlockFooter>15 Min Read • 23 - 05 -2023</BlockFooter>
       </Block>
 
-      <Block className='basis-[90%]'>
+      <Block>
         <BlockTitle>FREELANCING 101 • William George</BlockTitle>
         <BlockContent>
           07 Ways to get Consistent Clients from Social Media
@@ -68,7 +68,7 @@ function Features() {
         <BlockFooter>15 Min Read • 23 - 05 -2023</BlockFooter>
       </Block>
 
-      <Block className='basis-[90%]'>
+      <Block>
         <BlockTitle>FREELANCING 101 • William George</BlockTitle>
         <BlockContent>
           07 Ways to get Consistent Clients from Social Media
@@ -76,7 +76,7 @@ function Features() {
         <BlockFooter>15 Min Read • 23 - 05 -2023</BlockFooter>
       </Block>
 
-      <Block className='basis-[90%]'>
+      <Block>
         <BlockTitle>FREELANCING 101 • William George</BlockTitle>
         <BlockContent>
           07 Ways to get Consistent Clients from Social Media
@@ -84,7 +84,7 @@ function Features() {
         <BlockFooter>15 Min Read • 23 - 05 -2023</BlockFooter>
       </Block>
 
-      <Block className='basis-[90%]'>
+      <Block>
         <BlockTitle>FREELANCING 101 • William George</BlockTitle>
         <BlockContent>
           07 Ways to get Consistent Clients from Social Media
